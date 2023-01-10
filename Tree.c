@@ -73,9 +73,9 @@ int main() {
 	//4 y 5 y 7 n n y 8 n n y 10 n y 1 n n      jenny's test  case 
 	//7 y 4 y 8 n n y 4 n n y 10 y 1 n n y 12 n n
     /* 
-	     7 
-		/ \
-	  4    10
+	 7 
+	/ \
+      4    10
     /  \  /  \
    8    4 1   12
 	
