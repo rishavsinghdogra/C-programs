@@ -51,7 +51,7 @@ void preorder(struct node* root)
 	if(root == NULL)
 	return;
     
-    printf("%d ",root->data);
+        printf("%d ",root->data);
     
 	preorder(root->left);
 	preorder(root->right);
@@ -93,10 +93,10 @@ int main() {
     printf("\nThe preorder traversal of this tree is : ");        //7 4 8 4 10 1 12      
     preorder(root);
 
-	printf("\nThe ineorder traversal of this tree is : ");       //8 4 4 7 1 10 12
+    printf("\nThe ineorder traversal of this tree is : ");       //8 4 4 7 1 10 12
     inorder(root);	
 
-	printf("\nThe postorder traversal of this tree is : ");     //8 4 4 1 12 10 7 
+    printf("\nThe postorder traversal of this tree is : ");     //8 4 4 1 12 10 7 
     postorder(root);
 
 	
