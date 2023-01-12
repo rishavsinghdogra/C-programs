@@ -50,9 +50,9 @@ int main() {
 	// 7 4 8 -1 -1 4 -1 -1 10 1 -1 -1 12 -1 -1
 	
 	/*
-		  7 
-		 / \
-	    4    10
+	  7 
+	 / \
+       4    10
       /  \  /  \
      8    4 1   12
    
@@ -62,7 +62,7 @@ int main() {
 	printf("\nEnter data : ");
 	root = givetree();
 
-    printf("\nThe height of this binary tree is : %d",maxDepth(root));
+        printf("\nThe height of this binary tree is : %d",maxDepth(root));
 
 	
 	return 0;
