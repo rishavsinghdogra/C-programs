@@ -99,6 +99,6 @@ int main() {
     printf("\nThe postorder traversal of this tree is : ");     //8 4 4 1 12 10 7 
     postorder(root);
 
-	
+	///g
 	return 0;
 }
